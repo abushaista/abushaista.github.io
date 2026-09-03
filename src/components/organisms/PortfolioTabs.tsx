@@ -12,10 +12,14 @@ export function PortfolioTabs() {
   ];
 
   return (
-    <section>
-      <div className="flex border-b border-slate-700">
+    <section id="experience">
+      <div className="mb-8 flex items-end justify-between">
+        <h2 className="text-3xl font-bold tracking-tight text-slate-900">Selected work</h2>
+        <span className="hidden text-xs uppercase tracking-[0.2em] text-slate-400 md:block">02 / Career</span>
+      </div>
+      <div id="projects" className="flex border-b border-slate-200">
         {tabs.map(({ id, label, icon: Icon }) => (
-          <button key={id} onClick={() => setActiveTab(id)} className={`flex items-center gap-2 border-b-2 px-4 pb-3 font-medium transition ${activeTab === id ? 'border-blue-500 text-blue-400' : 'border-transparent text-slate-400 hover:text-slate-200'}`}>
+          <button key={id} onClick={() => setActiveTab(id)} className={`mr-6 flex items-center gap-2 border-b-2 px-1 pb-3 text-sm font-semibold transition ${activeTab === id ? 'border-slate-900 text-slate-900' : 'border-transparent text-slate-400 hover:text-slate-700'}`}>
             <Icon className="h-4 w-4" /> {label}
           </button>
         ))}

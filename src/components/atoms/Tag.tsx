@@ -1,3 +1,3 @@
 export function Tag({ children }: { children: string }) {
-  return <span className="rounded bg-slate-700 px-2 py-0.5 text-xs text-slate-300">{children}</span>;
+  return <span className="rounded-full bg-slate-100 px-2.5 py-1 text-[11px] font-medium text-slate-600">{children}</span>;
 }

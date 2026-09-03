@@ -8,9 +8,9 @@ type SkillCardProps = {
 
 export function SkillCard({ icon: Icon, title, skills }: SkillCardProps) {
   return (
-    <div className="rounded-xl border border-slate-700 bg-slate-800 p-5">
-      <h3 className="mb-3 flex items-center gap-2 font-semibold text-blue-400">
-        <Icon className="h-4 w-4" />
+    <div className="bg-[#f8f9fa] p-5 transition hover:bg-white">
+      <h3 className="mb-3 flex items-center gap-2 font-semibold text-slate-900">
+        <Icon className="h-4 w-4 text-blue-600" />
         {title}
       </h3>
       <ul className="space-y-1 text-sm text-slate-300">
