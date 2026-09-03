@@ -24,7 +24,7 @@ export const profile = {
 
 export const skills = {
   backend: ['.NET / ASP.NET Core', 'Go', 'Kotlin', 'Node.js (NestJS, Expressjs)', 'PHP (Laravel, CakePHP)'],
-  databases: ['SQL Server', 'MySQL', 'PostgreSQL / PostGIS', 'MongoDB', 'Azure Cosmos DB'],
+  databases: ['SQL Server', 'MySQL', 'PostgreSQL / PostGIS', 'Tibero', 'MongoDB', 'Azure Cosmos DB'],
   cloud: ['Azure', 'Google Cloud Platform', 'AWS', 'Docker'],
   architecture: ['Microservices', 'Domain Driven Design (DDD)', 'Event Sourcing'],
 };
@@ -103,7 +103,7 @@ export const projects: Project[] = [
     title: 'CORETAX SYSTEM',
     client: 'DIRECTORATE GENERAL OF TAX, INDONESIA',
     description: 'National-scaled tax system supporting taxpayer registration and administration.',
-    tech: ['.NET', 'Microservices', 'DDD', 'Event Sourcing', 'RabbitMQ', 'Elasticsearch', 'Redis', 'Docker', 'Angular'],
+    tech: ['.NET', 'Microservices', 'DDD', 'Event Sourcing', 'RabbitMQ', 'Elasticsearch', 'Redis', 'Tibero', 'Docker', 'Angular'],
   },
   {
     title: 'SMARTKIOSK-API',
