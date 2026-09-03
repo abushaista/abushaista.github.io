@@ -26,7 +26,7 @@ export function PortfolioTabs() {
       </div>
       <div className={activeTab === 'experience' ? 'mt-6 space-y-6' : 'mt-6 grid grid-cols-1 gap-6 md:grid-cols-2'}>
         {activeTab === 'experience'
-          ? experiences.map((experience) => <ExperienceCard key={`${experience.company}-${experience.role}`} experience={experience} />)
+          ? <><div className="space-y-6">{experiences.map((experience) => <ExperienceCard key={`${experience.company}-${experience.role}`} experience={experience} />)}</div></>
           : projects.map((project) => <ProjectCard key={project.title} project={project} />)}
       </div>
     </section>

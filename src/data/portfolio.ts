@@ -13,6 +13,15 @@ export type Project = {
   github?: string;
 };
 
+export const earlierCareer = {
+  period: '2010 – 2017',
+  title: 'Earlier Career',
+  companies:
+    'PT Mitrais · PT Salim Ivomas Pratama Tbk · PT eBiz Cipta Solusi · JOB Pertamina EMP Gebang · PT Pertamina · PT Smartfren Tbk · PT XSIS Mitra Utama',
+  summary:
+    'Progressed through Analyst Programmer, Senior Developer/Supervisor, Senior Consultant, IT Supervisor and Software Developer roles across enterprise applications, GIS, Android, SharePoint, SAP integration, .NET and IT operations.',
+};
+
 export const profile = {
   name: 'ARIF HIDAYAT',
   location: 'Bekasi, West Java',
@@ -78,17 +87,11 @@ export const experiences: Experience[] = [
     details: ['Developed and maintained internal enterprise applications supporting business operations using .NET and SQL Server.'],
   },
   {
-    period: 'FEBRUARY 2017 - DECEMBER 2017',
-    role: 'ANALYST PROGRAMMER',
-    company: 'PT MITRAIS',
-    details: ['Conducted analysis of business requirements and evaluated low-code platforms.'],
-  },
-  {
-    period: 'SEPTEMBER 2015 - JANUARY 2017',
-    role: 'SENIOR DEVELOPER (SUPERVISOR)',
-    company: 'PT SALIM IVOMAS PRATAMA, TBK',
-    details: ['Developed GIS-based web applications, Android mobile applications, and SAP integrations.'],
-  },
+    period: '2009 – 2017',
+    role: 'EARLIER CAREER',
+    company: 'PT Mitrais · PT Salim Ivomas Pratama Tbk · PT eBiz Cipta Solusi · JOB Pertamina EMP Gebang · PT Pertamina · PT Smartfren Tbk · PT XSIS Mitra Utama',
+    details: ['Progressed through Analyst Programmer, Senior Developer/Supervisor, Senior Consultant, IT Supervisor and Software Developer roles across enterprise applications, GIS, Android, SharePoint, SAP integration, .NET and IT operations.'],
+  }
 ];
 
 export const projects: Project[] = [
