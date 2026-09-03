@@ -31,7 +31,7 @@ export const skills = {
 
 export const experiences: Experience[] = [
   {
-    period: 'SEPTEMBER 2023 - PRESENT',
+    period: 'SEPTEMBER 2023 - SEPTEMBER 2026',
     role: 'SENIOR FULLSTACK DEVELOPER',
     company: 'PT QUALYSOFT CENTRE EXCELLENCE',
     details: [
