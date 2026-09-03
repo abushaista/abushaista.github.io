@@ -13,7 +13,7 @@ export function SkillCard({ icon: Icon, title, skills }: SkillCardProps) {
         <Icon className="h-4 w-4 text-blue-600" />
         {title}
       </h3>
-      <ul className="space-y-1 text-sm text-slate-300">
+      <ul className="space-y-1 text-sm text-slate-600">
         {skills.map((skill) => <li key={skill}>• {skill}</li>)}
       </ul>
     </div>
