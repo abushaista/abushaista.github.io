@@ -25,7 +25,7 @@ export const profile = {
 export const skills = {
   backend: ['.NET / ASP.NET Core', 'Go', 'Kotlin', 'Node.js (NestJS, Expressjs)', 'PHP (Laravel, CakePHP)'],
   databases: ['SQL Server', 'MySQL', 'PostgreSQL / PostGIS', 'MongoDB', 'Azure Cosmos DB'],
-  cloud: ['Azure', 'Google Cloud Platform', 'Docker'],
+  cloud: ['Azure', 'Google Cloud Platform', 'AWS', 'Docker'],
   architecture: ['Microservices', 'Domain Driven Design (DDD)', 'Event Sourcing'],
 };
 
